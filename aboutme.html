@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head class="fontall">
+    <title>More About Me</title>
+    <link rel="stylesheet" type="text/css" href="default.css">
+    <script type="text/javascript">
+        function PopWin(p_Where, p_Width, p_Height, p_Name) {
+            if (p_Width == "") {
+                p_Width = 560
+            }
+            if (p_Height == "") {
+                p_Height = 400
+            }
+            if (p_Name == "") {
+                p_Name = "fetch_pop"
+            }
+            var win = open(p_Where, p_Name, "menubar=yes,toolbar=no,width=" + p_Width + ",height=" + p_Height + ",resizable=1,scrollbars=1");
+            win.focus();
+        }
+
+    </script>
+</head>
+
+<body class="fontbody">
+    <div class="header">
+		<img class="logopic" src="../media/logo.png" alt="Logo"/>
+        <h1 class="headtext">More About Me</h1>
+    </div>
+    <div class="nav">
+        <h2 class="fontall">Links to my pages</h2>
+        <h3><a href="index.html">About Me</a></h3>
+        <h3><a href="intro.html">Intro</a></h3>
+        <h3><a href="resume.html">Resume</a></h3>
+        <h3><a href="academics.html">Academics</a></h3>
+        <h3 class="active"><a href="aboutme.html">More About Me</a></h3>
+    </div>
+
+    <div class="content">
+        <div class="text">
+            I like to explore and learn more about cars on my freetime. I am a huge fan of muscle and sports cars, I would love to own a Dodge Challenge Hellcat or a Corvette ZR1 someday. I currently own a Hyundai Tiburon, which is the closet I get can to a sports car at theis moment. It sounds similar to an expensive sports car when you rev the engine and it's fast enough for me. I also enjoy solving Rubiks cubes. I taught myself to solve the 3x3 cube in about 1:10 seconds. After mastering the 3x3, I decided to go up to the 4x4 cube and was able to get that in about 6 minutes. I enjoy the complexity of the Rubik's cube and it teaches you a life lesion that sometimes you have to temporarily mess things up in order to perfect them.
+		</div>
+        <div class="carpics">
+            <br>
+            <img src="../media/challenger.jpg" alt="Challenger" height="350" width="525" />
+            <img src="../media/lambo.jpg" alt="Lambo" height="350" width="467" />
+            <img src="../media/zr1_2.jpg" alt="ZR!" height="350" width="550" />
+            <img src="../media/tib3.jpg" alt="Tiburon" height="385" width="450" />
+        </div>
+		
+        <h2>Click Me</h2>
+        <a onclick="PopWin('../media/wizard.jpg', 380, 250, 'wizard')">
+            <img src="../media/wizard.jpg" alt="Kyrren C Love" width="124" height="144" /></a>
+    </div>
+	
+    <div class="footer">
+        <h3>&copy;Kyrren Love 2018</h3>
+    </div>
+	
+</body>

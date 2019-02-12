@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head class="fontall">
+    <title> Stage 3 Home</title>
+    <link rel="stylesheet" type="text/css" href="default.css">
+    <script type="text/javascript">
+        function PopWin(p_Where, p_Width, p_Height, p_Name) {
+            if (p_Width == "") {
+                p_Width = 560
+            }
+            if (p_Height == "") {
+                p_Height = 400
+            }
+            if (p_Name == "") {
+                p_Name = "fetch_pop"
+            }
+            var win = open(p_Where, p_Name, "menubar=yes,toolbar=no,width=" + p_Width + ",height=" + p_Height + ",resizable=1,scrollbars=1");
+            win.focus();
+        }
+
+    </script>
+</head>
+
+<body class="fontbody">
+    <div class="header">
+        <img class="logopic" src="../media/logo.png" alt="Logo" />
+        <h1 class="headtext">Kyrren Love's Stage 3</h1>
+    </div>
+    <div class="nav">
+        <h2 class="fontall">Links to my pages</h2>
+        <h3 class="active"><a href="index.html">About Me</a></h3>
+        <h3><a href="intro.html">Intro</a></h3>
+        <h3><a href="resume.html">Resume</a></h3>
+        <h3><a href="academics.html">Academics</a></h3>
+        <h3><a href="aboutme.html">More About Me</a></h3>
+    </div>
+
+    <div class="content">
+        <p class="text">I like to game and workout during my free time. I love cars and playing Madden. I have been in rochester alll my life, I have only traveled to NYC, Philadelphia, and Georgia. I am a die hard eagles fan and treat every game on television as if I am at the stadium on Sundays. </p>
+        <h2>Some of My Favorite Web Sites:</h2>
+        <ol>
+            <li><a href="http://Youtube.com"> Youtube</a></li>
+            <li><a href="http://NFL.com"> NFL.com</a></li>
+            <li><a href="http://Netflix.com"> Netflix</a></li>
+        </ol>
+        <h2>Click Me</h2>
+        <a onclick="PopWin('../media/wizard.jpg', 380, 250, 'wizard')">
+            <img src="../media/wizard.jpg" alt="Kyrren C Love" width="124" height="144" /></a>
+
+<!--
+        <video height="240" width="320" preload="auto" controls="controls">
+            <source src="bionicle.m4v" type="video/mp4; " />
+            For browsers that do not support the HTML5 <video> tag you could insert a Flash player here.
+            </video>
+-->
+    </div>
+    <div class="footer">
+        <h3>&copy;Kyrren Love 2018</h3>
+    </div>
+</body>

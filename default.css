@@ -1,0 +1,100 @@
+.header {
+    grid-column: 1/span 2;
+    grid-row: 1/span 1;
+	display:flex;
+	justify-content: flex-start;
+}
+
+img {
+    border-radius: 3px;
+    box-shadow: 2px 3px 5px #3f3f3f;
+    margin-right:1em; 
+	
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.nav {
+    grid-column: 1/span 1;
+    grid-row: 2/span 1;
+    display: flex;
+    flex-direction: column;
+}
+.nav h3{
+    background-color: white;
+    text-align: center;
+    line-height: 23px;
+    margin: 10px 100px 10px 40px;
+    padding: .3em;
+    margin-left: .5em;
+    transition: .3s ease;
+    border-radius: 16px;
+    box-shadow: 2px 2px 4px #3f3f3f;
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+}
+.nav .active{
+/*    background-color: orange;*/
+    background-color: black;
+    
+}
+.active a{
+    color: white;
+}
+
+.nav h3:hover{
+    background-color: orange; 
+    transition: .3s ease;
+}
+.content{ 
+    grid-column: 2/span 1;
+    grid-row: 2/span 1;
+    padding-right: 1em;
+}
+.footer{
+    margin-top: 2em;
+    margin-bottom: 0;
+    grid-column: 1/span 2;
+    grid-row: 3/span 1;
+    text-align: center;
+    bottom: 0;
+    position: relative;
+}
+body{
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    background: url(../media/background.jpg) no-repeat center center fixed;
+    background-size:cover;  
+    line-height: 1.5em;
+}
+.carpics{
+    display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	
+}
+.text, #resumetext{
+    line-height: 1.5em;
+    font-size: 25px;
+}
+
+.logopic {
+	box-shadow: none;
+	width: 100px;
+	margin-right:200px;
+}
+
+.fontall {
+    font-family: 'Shadows Into Light', cursive;
+/*    font-family: 'Varela Round', sans-serif;*/
+
+}
+.fontbody{
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+.headtext {
+    text-align: right;  
+    font-family: 'Shadows Into Light', cursive;
+}

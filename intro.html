@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head class="fontall">
+    <title>Intro</title>
+    <link rel="stylesheet" type="text/css" href="default.css">
+    <script type="text/javascript">
+        function PopWin(p_Where, p_Width, p_Height, p_Name) {
+            if (p_Width == "") {
+                p_Width = 560
+            }
+            if (p_Height == "") {
+                p_Height = 400
+            }
+            if (p_Name == "") {
+                p_Name = "fetch_pop"
+            }
+            var win = open(p_Where, p_Name, "menubar=yes,toolbar=no,width=" + p_Width + ",height=" + p_Height + ",resizable=1,scrollbars=1");
+            win.focus();
+        }
+
+    </script>
+</head>
+
+<body class="fontbody">
+    <div class="header">
+		<img class="logopic" src="../media/logo.png" alt="Logo"/>
+        <h1 class="headtext">Introduction</h1>
+    </div>
+
+    <div class="nav">
+        <h2 class="fontall">Links to my pages</h2>
+        <h3><a href="index.html">About Me</a></h3>
+        <h3 class="active"><a href="intro.html">Intro</a></h3>
+        <h3><a href="resume.html">Resume</a></h3>
+        <h3><a href="academics.html">Academics</a></h3>
+        <h3><a href="aboutme.html">More About Me</a></h3>
+    </div>
+
+    <div class="content">
+        <p class="text">My name is Kyrren Love, I enjoy gaming on my free time, working out and watching YouTube videos. The purpose of this site is to make a web page that shows information about me that people can refer to learn things about myself. The audience set for this sit will be my professor and future employees.</p>
+        <br><br>
+        <img src="../media/mcc.jpg" alt="MCC" height="308" width="400" />
+        <h2>Click Me</h2>
+        <a onclick="PopWin('../media/wizard.jpg', 380, 250, 'wizard')">
+            <img src="../media/wizard.jpg" alt="Kyrren C Love" width="124" height="144" /></a>
+    </div>
+    <div class="footer">
+        <h3>&copy; Kyrren Love 2018</h3>
+    </div>
+</body>

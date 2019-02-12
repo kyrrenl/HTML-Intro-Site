@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head class="fontall">
+    <title>Academics</title>
+    <link rel="stylesheet" type="text/css" href="default.css">
+    <script type="text/javascript">
+        function PopWin(p_Where, p_Width, p_Height, p_Name) {
+            if (p_Width == "") {
+                p_Width = 560
+            }
+            if (p_Height == "") {
+                p_Height = 400
+            }
+            if (p_Name == "") {
+                p_Name = "fetch_pop"
+            }
+            var win = open(p_Where, p_Name, "menubar=yes,toolbar=no,width=" + p_Width + ",height=" + p_Height + ",resizable=1,scrollbars=1");
+            win.focus();
+        }
+
+    </script>
+</head>
+
+<body class="fontbody">
+    <div class="header">
+		<img class="logopic" src="../media/logo.png" alt="Logo"/>
+        <h1 class="headtext">Academics</h1>
+    </div>
+    <div class="nav">
+        <h2 class="fontall">Links to my pages</h2>
+        <h3><a href="index.html">About Me</a></h3>
+        <h3 ><a href="intro.html">Intro</a></h3>
+        <h3 ><a href="resume.html">Resume</a></h3>
+        <h3 class="active"><a href="academics.html">Academics</a></h3>
+        <h3><a href="aboutme.html">More About Me</a></h3>
+    </div>
+    
+
+    <div class="content">
+        <p  class="text">
+            I graduated from Leadership Academy for Young Men in 2016, my first year of college was spent at Monroe Community College and now I am a junior at R.I.T for Computing and Information Technologies. My road to RIT has been up and down. At first, I had no intentions on attending because I was in Business Administration at the time and planned to pick a cheaper school. After spending my senior year in high school working an internship in the I.T department at Rochester General Hospital, I realized that I found a new interest and had a change of mind, so I applied to the best school locally for a computing major and I do not regret my decision.</p>
+        <h2>Click Me</h2>
+        <a onclick="PopWin('../media/wizard.jpg', 380, 250, 'wizard')">
+            <img src="../media/wizard.jpg" alt="Kyrren C Love" width="124" height="144" /></a>
+    </div>
+    <div class="footer">
+        <h3>&copy;Kyrren Love 2018</h3>
+    </div>
+</body>

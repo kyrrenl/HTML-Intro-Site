@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head class="fontall">
+    <title>Resume</title>
+    <link rel="stylesheet" type="text/css" href="default.css">
+    <script type="text/javascript">
+        function PopWin(p_Where, p_Width, p_Height, p_Name) {
+            if (p_Width == "") {
+                p_Width = 560
+            }
+            if (p_Height == "") {
+                p_Height = 400
+            }
+            if (p_Name == "") {
+                p_Name = "fetch_pop"
+            }
+            var win = open(p_Where, p_Name, "menubar=yes,toolbar=no,width=" + p_Width + ",height=" + p_Height + ",resizable=1,scrollbars=1");
+            win.focus();
+        }
+
+    </script>
+</head>
+
+<body class="fontbody">
+    <div class="header">
+		<img class="logopic" src="../media/logo.png" alt="Logo"/>
+        <h1 class="headtext">Resume</h1>
+    </div>
+
+    <div class="nav">
+        <h2 class="fontall">Links to my pages</h2>
+        <h3><a href="index.html">About Me</a></h3>
+        <h3 ><a href="intro.html">Intro</a></h3>
+        <h3 class="active"><a href="resume.html">Resume</a></h3>
+        <h3><a href="academics.html">Academics</a></h3>
+        <h3><a href="aboutme.html">More About Me</a></h3>
+    </div>
+
+    <div class="content" id="resumetext">
+        <div>
+            <strong>Kyrren Love</strong>
+            <br>
+            Rochester NY, 14611, kcl4926@g.rit.edu
+        </div><br>
+
+        <div>
+            <strong><u>Summary:</u></strong><br>
+            I am hardworking and results-oriented person. I am also a problem solver and always responsible enough to hold myself accountable for my actions. I work well with a diverse team and acclimate quickly to new situations with fast-paced environments.
+        </div><br>
+        <div>
+            <strong><u>Education:</u></strong>
+            <br> Rochester Institute of Technology, Rochester, NY
+            <ul>
+                <li>Bachelor of Science, Computing and Information Technologies, 3.12 GPA 2021</li>
+            </ul>
+            Monroe Community College, Rochester, NY
+            <ul>
+                <li>Computer Information Systems, 3.16 GPA 1st year transfer</li>
+            </ul>
+        </div>
+        <strong><u>Skills:</u></strong>
+        <ul>
+            <li>Programming Languages: Java, Python, HTML, Bash, and Powershell </li>
+            <li>Experience with setting up small sized networks with Cisco switches and routers</li>
+        </ul>
+        <div>
+            <strong><u>Employment Experience:</u></strong><br>
+            <u>Rochester Institute of Technology, Rochester, NY </u>
+            <br>Senior Communications Support Tech. (May-Present)<br>
+            <ul>
+                <li>Distribute tickets to co-workers along with overseeing the ticket pool and updating online documentation.</li>
+                <li>Point of contact for problem solving on occurring issues on tickets.</li>
+                <li>Undergo the process of training new employees.</li>
+            </ul>
+            ITS Communications Support Tech. (November 2017 - Present)
+            <ul>
+                <li>Servicing and activating network jacks using a Fluke to diagnose and resolve network issues to prevent work stoppages.</li>
+                <li>Servicing and activating Analog, Digital and VoIP phone lines using a 110 punch down tool along with various other tools to complete work requests.</li>
+                <li>Day to day contact with customers over the phone, email, or ticket system to complete work requests.</li>
+            </ul>
+
+            <u>Monroe Community College, Rochester, NY </u>
+            Peer Navigator (July 2016 - August 2017)
+            <ul>
+                <li>Collaborated with a team to welcome new students and families through orientation (First Year Entertainment).</li>
+                <li>Staffed the Admissions Office utilizing Banner, Recruit, and Image Now to process transcripts through the system.</li>
+                <li>Operated front desk area to check people in with admissions counselors and lead through applications to admissions.</li>
+                <li>Conducted tours and information sessions to prospective students and families.</li>
+            </ul>
+            <u>Rochester General Hospital, Rochester, NY </u><br>
+            Youth Apprenticeship Program (September 2015 – July 2016)
+            <ul>
+                <li> Assisted technicians in solving technical problems around the hospital from hardware to software issues such as replacing batteries in carts to running GPO updates and Re-imaging PC’s.</li>
+            </ul>
+        </div>
+
+        <div>
+            <strong><u>Projects</u></strong><br>
+            <ul>
+                <li>Programmed a Java based SMTP mail server and client that involved login authentication to send mail back and forth across servers and clients.</li>
+                <li>Created a Python based Tic Tac Toe game.</li>
+                <li>Worked on a Java based GPA Calculator enabling a user to enter in how many classes they took along with calculating a gpa for a single term.</li>
+            </ul>
+        </div>
+
+        <div>
+            <strong><u>Leadership:</u></strong><br>
+            <u>M.O.C.H.A (Men of Color Honor and Ambition) (September- Present)</u>
+            <ul>
+                <li>The purpose of this program is to empower the participants to become successful leaders and role models in their respective careers and communities by participating in a series of community and leadership events while also increasing health awareness through wellness activities.</li>
+            </ul>
+        </div>
+        <h2>Click Me</h2>
+        <a onclick="PopWin('../media/wizard.jpg', 380, 250, 'wizard')">
+            <img src="../media/wizard.jpg" alt="Kyrren C Love" width="124" height="144" /></a>
+    </div>
+    <div class="footer">
+        <h3>&copy;Kyrren Love 2018</h3>
+    </div>
+</body>
